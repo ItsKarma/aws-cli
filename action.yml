@@ -1,0 +1,9 @@
+name: 'AWS CLI'
+description: 'GitHub Action for AWS CLI'
+author: ItsKarma
+branding:
+  icon: 'cloud'
+  color: 'orange'
+runs:
+  using: docker
+  image: Dockerfile
