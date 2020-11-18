@@ -26,8 +26,8 @@ provide an output variable at the path `steps.latest_lambda_version.outputs.resu
   uses: ItsKarma/aws-cli@v1.70.0
   id: latest_lambda_version
   with:
-    args: lambda list-versions-by-function --function-name my_function_name \
-      --no-paginate \
+    args: lambda list-versions-by-function --function-name my_function_name
+      --no-paginate
       --query "max_by(Versions, &to_number(to_number(Version) || '0')).Version"
   env:
     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
