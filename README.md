@@ -17,7 +17,7 @@ Docker image for AWS CLI, also source for the AWS CLI GitHub Action.
 
 ## Output
 
-This GitHub action exposes stdout as an output named `result`. For example, in the following example, this step will
+This GitHub action exposes stdout as an output named `result`. In the following example, this step will
 provide an output variable at the path `steps.latest_lambda_version.outputs.result`:
 
 ```yaml
