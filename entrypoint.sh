@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Store stdout from the aws-cli call into a variable
-RESULT=$(aws "$@")
+RESULT=$(awsv2 "$@")
 
 # Capture the exit code and we'll use the same code at the end of this script
 # That means failures will be visible in the console
