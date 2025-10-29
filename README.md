@@ -1,5 +1,13 @@
 # aws-cli
 
+**[INACTIVE]**
+
+This project is inactive and out of date. Please use the official AWS Docker Image instead
+
+https://hub.docker.com/r/amazon/aws-cli
+
+----
+
 Docker image for AWS CLI, also source for the AWS CLI GitHub Action.
 
 ## Example Usage
